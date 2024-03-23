@@ -56,6 +56,7 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 	This program installs (or overwrites) the files  `.bashrc` and `.profile` in your home directory.
 	**Important:** if you have used Thayer's Linux systems before, and have customized your copy of these configuration files, type `n` when the script asks to overwrite them; if you type `y` you will lose your customizations and begin with fresh Thayer-supplied default configuration.
 
+<!-- @CHANGEME : add term-specific org -->
 5. Set up your GitHub account and provide GitHub a 'key' so your account on `plank` can access GitHub; follow these [instructions](https://github.com/CS50DartmouthSP24/home/blob/main/logistics/github.md), and then return here.
 
 6. Clone this repository into your home directory:
@@ -90,7 +91,8 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 9. (OPTIONAL) To pick a preferred editor, edit `~/cs50-dev/dotfiles/profile.cs50` to uncomment one line defining `EDITOR`.
 	You can postpone this step until you've decided on your favorite editor.
 
-	> Read [about editors]({{systems}}#editors).
+<!-- @CHANGEME : add term-specific org -->
+	> Read [about editors](https://github.com/CS50DartmouthSP24/home/blob/main/logistics/systems.md#editors).
 
 10. Finally, log out of plank (use the `exit` command to exit bash), and log back in using the `ssh` command from above.
 
