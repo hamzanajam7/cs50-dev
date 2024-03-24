@@ -56,8 +56,7 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 	This program installs (or overwrites) the files  `.bashrc` and `.profile` in your home directory.
 	**Important:** if you have used Thayer's Linux systems before, and have customized your copy of these configuration files, type `n` when the script asks to overwrite them; if you type `y` you will lose your customizations and begin with fresh Thayer-supplied default configuration.
 
-<!-- @CHANGEME : add term-specific org -->
-5. Set up your GitHub account and provide GitHub a 'key' so your account on `plank` can access GitHub; follow these [instructions](https://github.com/CS50DartmouthSP24/home/blob/main/logistics/github.md), and then return here.
+5. Set up your GitHub account and provide GitHub a 'key' so your account on `plank` can access GitHub; follow these [instructions](https://www.cs.dartmouth.edu/~cs50/Logistics/github.html), and then return here.
 
 6. Clone this repository into your home directory:
 	
@@ -91,8 +90,7 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 9. (OPTIONAL) To pick a preferred editor, edit `~/cs50-dev/dotfiles/profile.cs50` to uncomment one line defining `EDITOR`.
 	You can postpone this step until you've decided on your favorite editor.
 
-<!-- @CHANGEME : add term-specific org -->
-	> Read [about editors](https://github.com/CS50DartmouthSP24/home/blob/main/logistics/systems.md#editors).
+	> Read [about editors](https://www.cs.dartmouth.edu/~cs50/Logistics/systems.html#editors).
 
 10. Finally, log out of plank (use the `exit` command to exit bash), and log back in using the `ssh` command from above.
 
@@ -102,7 +100,7 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 
 ## Developing your code
 
-Do all your work in the `c50-dev` folder.
+Do all your work in the `cs50-dev` folder.
 Thus, after login, use the `cd` command to change your *current directory* (aka *working directory*) to the `cs50-dev` subdirectory:
 
 ```bash
@@ -116,4 +114,5 @@ From there, create or clone new git repositories for your coursework.
 
 ## More information
 
-Much more information about the systems we use in CS50, including links to many other resources, can be found on the [systems page]({{systems}}) of the course website.
+Much more information about the systems we use in CS50, including links to many other resources, can be found on the [systems page](https://www.cs.dartmouth.edu/~cs50/Logistics/systems.html) of the course website.
+
