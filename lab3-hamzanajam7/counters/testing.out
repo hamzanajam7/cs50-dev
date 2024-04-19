@@ -1,0 +1,19 @@
+./counterstest < test.names
+Adding elements and setting initial values...
+Performing multiple additions to a single key...
+Retrieving and displaying all counter values...
+Key 0: Count = 0
+Key 1: Count = 2
+Key 2: Count = 4
+Key 3: Count = 26
+Key 4: Count = 8
+Current state of all counters:
+{0=0, 1=2, 2=4, 3=26, 4=8}
+Iterating over all counters:
+Key 0: Count 0
+Key 1: Count 2
+Key 2: Count 4
+Key 3: Count 26
+Key 4: Count 8
+Deleting all counters and freeing memory...
+All tests completed successfully.

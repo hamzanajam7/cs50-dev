@@ -1,0 +1,19 @@
+./settest
+Correct key and item insertion: Yes
+Null param:  No
+Items found: Yes
+Null set or Null in set: Yes
+Null return in case of valid sets/key: Yes
+set printing...
+{(24, ferrari)}
+testing set_print for null set
+(null)
+testing that set_print for null prints
+{}
+Iterating over the set...
+24:ferrari
+Iteration with null iterationfunction
+Iteration with null set
+
+
+End of testing
